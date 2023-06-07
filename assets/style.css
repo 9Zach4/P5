@@ -30,13 +30,24 @@ body {
 }
 
 .nav li {
-	padding-inline: 10px;
+	padding-inline: 0;
+	cursor: pointer;
 }
+
 
 .nav a {
 	text-decoration: none;
 	color: #000
 }
+.nav-a{
+	padding: 10px 
+}
+
+.nav-a:hover {
+    background-color: #BEB45A;; 
+	border-radius: 0.25rem;
+}
+
 
 .social-link img {
 	width: 20px;
@@ -101,9 +112,9 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
-	border-radius:0 ;
+
 }
 .nav-pills .nav-link {
 	color: #000
@@ -125,6 +136,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
