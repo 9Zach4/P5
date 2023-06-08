@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang ="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
@@ -16,7 +16,7 @@
 	<title>Nina Carducci, photographe professionnelle</title>
 </head>
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
@@ -24,11 +24,11 @@
 			<li><a class ="nav-a" href="#gallery">Galerie</a></li>
 			<li><a class ="nav-a" href="#services">Service</a></li>
 			<li><a class ="nav-a" href="#contact">Contact</a></li>
-			<li><a class ="nav-a social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Logo Instagram."></a></li>
+			<li><a class="nav-a social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" rel="noopener"><img src="assets/images/instagram.png" alt="Logo Instagram."></a></li>
 		</ul>
 	</div>
-</div>
-<div id="header">
+</header>
+<section id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
@@ -56,10 +56,10 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
-<div id="about">
+</section>
+<section id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.png">
+		<img src="./assets/images/nina.webp" alt="Nina Carducci, photographe à Bordeaux.">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -67,20 +67,20 @@
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
-</div>
-<div id="gallery">
+</section>
+<section id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
-		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.webp"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.webp"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.webp"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.webp"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/prattenburg.webp"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.webp"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp"/>
+		<div class="gallery">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.webp" alt ="Salle de concert baignée de lumières chaudes.">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="Homme en costume sombre">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp" alt=" Une femme assise et souriante.">
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.webp" alt="Gros-plan sur les mains de deux personnes, s'effleurant les doigts.">
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.webp"  alt="Photo d'un homme fermant les yeux.">
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.webp"  alt=" Photo d'un couple de jeunes mariés heureux.">
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/prattenburg.webp"alt=" Photo d'une femme portant des lunettes touchant un grillage.">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.webp" alt="Photo d'un chanteur en plein concert.">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" alt="Une femme assise à son bureau, riant et regardant vers la droite.">
 		</div>
 	</div>
 	<div class="quote">
@@ -91,8 +91,8 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</div>
-<div id="services">
+</section>
+<section id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
@@ -127,7 +127,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <div class="quote">
 	<figure>
 		<blockquote>
@@ -136,25 +136,25 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
+<section id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
-				<label>Nom</label>
+			<form method="post">
+				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
-				<label>Email</label>
+				<label for="email">Email</label>
 				<input type="email" name="email" id="email">
-				<label>Message</label>
+				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				<input type="submit" value="Envoyer"/>
-			</form>
+				<input type="submit" value="Envoyer">
+			</form>			
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.png">
+			<img src="./assets/images/camera.webp" alt ="Appareil photo">
 		</div>
 	</div>
-</div>
+</section>
 </body>
 </html>
